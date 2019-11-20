@@ -1,0 +1,42 @@
+{
+  "name": "webpack_react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js --config webpack.dev.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^2.1.1",
+    "express": "^4.17.1",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "imagemin-webp-webpack-plugin": "^3.2.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "style-loader": "^0.23.1",
+    "webp-loader": "^0.5.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "react-router-dom": "^5.1.2"
+  }
+}
